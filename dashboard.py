@@ -110,7 +110,7 @@ fig_sleep_age = px.bar(
     template="plotly_white",
 )
 fig_sleep_age.update_layout(
-    plot bgcolor="rgba(0,0,0,0)",
+    plot_bgcolor="rgba(0,0,0,0)",
     xaxis=dict(showgrid=False)
 )
     
